@@ -1,0 +1,108 @@
+.banner-container {
+    position: relative;
+}
+.banner-img {
+    width: 100%;
+    height: 660px;
+    object-fit: cover;
+}
+.featured-news-container {
+    animation: 0.7s cubic-bezier(0.67, 0.35, 0.565, 1) 0s 1 normal both running ljGnjM;
+    opacity: 0;
+    position: absolute;
+    bottom: 0px;
+    z-index: 9;
+    padding: 0px 60px 42px;
+}
+@media (max-width: 1440px) {
+    .featured-news-container {
+        width: calc(100% - 120px);
+        padding: 0px 60px 42px;
+    }
+}
+@keyframes ljGnjM {
+    100% {
+    opacity: 1;
+    }
+}
+.featured-news-head {
+    width: 80%;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.4px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(3 17 38 / 30%) 0px 2px 4px;
+    margin-bottom: 16px;
+}
+.featured-news {
+    width: 100%;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(2 10 23 / 30%) 0px 2px 4px;
+    margin-bottom: 34px;
+}
+.read-more {
+    position: relative;
+    width: 187px;
+    height: 44px;
+    border-radius: 1px;
+    background-color: rgb(29, 38, 57);
+    border: 1px solid rgb(91, 170, 234);
+    font-family: Lato;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: column;
+    margin-left: 1px;
+}
+.read-more:hover {
+    cursor: pointer;
+    color: rgb(91, 170, 234);
+    background-color: rgb(23, 28, 43);
+}
+.read-more:-webkit-any-link:focus-visible {
+    outline-offset: 1px;
+}
+.read-more:hover::before, .read-more:hover::after {
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(163, 222, 255) 9%, rgb(169, 218, 255) 53%, rgb(163, 222, 255) 91%, rgba(255, 255, 255, 0));
+    box-shadow: rgb(24 161 248) 0px 1px 7px 0px;
+}
+.read-more::before {
+    transition: all 0.3s ease-in-out 0s;
+    position: absolute;
+    top: -1px;
+    content: "";
+    width: 132px;
+    height: 1px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(163, 222, 255) 9%, rgb(169, 218, 255) 53%, rgb(163, 222, 255) 91%, rgba(255, 255, 255, 0));
+    box-shadow: rgb(24 161 248) 0px 1px 7px 0px;
+}
+.read-more::after {
+    transition: all 0.3s ease-in-out 0s;
+    position: absolute;
+    bottom: -1px;
+    content: "";
+    width: 132px;
+    height: 1px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(163, 222, 255) 9%, rgb(169, 218, 255) 53%, rgb(163, 222, 255) 91%, rgba(255, 255, 255, 0));
+    box-shadow: rgb(24 161 248) 0px 1px 7px 0px;
+}

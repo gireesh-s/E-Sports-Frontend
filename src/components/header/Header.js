@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import SideDrawer from '../side_drawer/SideDrawer'
 import './Header.css'
 
 const Header = () => {
+
+    const [openDrawer, setOpenDrawer] = useState(false)
+
   return (
     <div className='main-container'>
         <div className='sub-container'>
@@ -33,6 +37,17 @@ const Header = () => {
                     <a href='/contact' className='nav-link'>
                         Contact
                     </a>
+                </div>
+                <img
+                 src='https://tsm.gg/static/icons/nav.svg' 
+                 alt='menu'
+                 className='menu-button'
+                 onClick={()=>{setOpenDrawer(true)}}
+                />
+
+                {/* SideDrawer */}
+                <div className={openDrawer?'open-drawer-container':'close-drawer-container'}>
+                    <SideDrawer setOpenDrawer={ setOpenDrawer } />
                 </div>
             </div>
         </div>

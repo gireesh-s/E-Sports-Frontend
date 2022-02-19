@@ -1,0 +1,105 @@
+.footer-main-container {
+    background-image: linear-gradient(to top, rgb(29, 35, 48), rgb(31, 43, 65));
+}
+.footer-sub-container {
+    padding: 39px 0px 36px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, rgb(29, 35, 48), rgb(31, 43, 65));
+}
+.footer-sup-sub-container {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.footer-logo {
+    width: 228px;
+    margin: 20px 10px;
+    object-fit: cover;
+}
+.nav-link-container {
+    display: flex;
+    line-height: 16px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-link {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Lato;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.footer-link-a {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Lato;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.footer-social-container {
+    display: flex;
+    justify-content: space-around;
+}
+.social-link {
+    text-decoration: none;
+}
+.footer-fb {
+    color: rgb(122, 135, 158);
+    margin: 15px 10px;
+}
+.copyright {
+    padding: 10px 0px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(210, 214, 218);
+    text-align: center;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer-sub-container {
+        padding: 19px 0px 16px;
+    }
+    .footer-logo {
+        width: 160px;
+    }
+    .footer-social-container {
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+    .footer-fb {
+        font-size: 18px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 376px) {
+    .nav-link-container {
+        justify-content: space-evenly;
+    }
+    .nav-link-container span .nav-link-container a {
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 377px) and (max-width: 480px) {
+    .nav-link-container {
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    .nav-link-container span .nav-link-container a {
+        margin-bottom: 10px;
+    }
+}

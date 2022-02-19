@@ -1,0 +1,208 @@
+.partners-container {
+    background-image: linear-gradient(rgb(22, 31, 48), rgb(24, 31, 44) 34%, rgb(23, 28, 38));
+    position: relative;
+}
+.partners-sub-container {
+    width: 100%;
+}
+.partners-companies-container {
+    margin: 10px 60px 60px;
+    display: grid;
+    gap: 40px;
+    grid-template-rows: auto;
+    grid-template-columns: none;
+    grid-template-areas: "a b";
+    place-content: center;
+    -webkit-box-pack: center;
+}
+.partner-grid-container {
+    display: flex;
+}
+.partner-grid-sub-container {
+    padding: 30px 30px 40px;
+    background-color: rgb(30, 40, 59);
+}
+.partner-company-logo {
+    height: 50px;
+}
+.partner-description {
+    margin-top: 21px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+.partners-links-container {
+    margin-top: 30px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.visit-site-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(122, 135, 158);
+}
+.visit-site {
+    font-family: Lato-Bold;
+    font-size: 12px;
+    color: rgb(164, 213, 248);
+    letter-spacing: 0.4px;
+}
+.partners-sup-sub-container {
+    background-image: linear-gradient(90deg, rgb(22, 31, 48) 11%, rgb(24, 31, 44) 37%, rgb(19, 24, 34) 89%);
+    height: 124px;
+    padding: 60px 80px;
+    position: relative;
+}
+.partners-email-us-head {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    margin: 15px 0px;
+    white-space: nowrap;
+}
+.partners-email-us-head a {
+    color: rgb(164, 213, 248);
+    text-decoration: none;
+}
+.partners-email-us-bg {
+    height: 245px;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+.partner-social-container {
+    margin-left: 29px;
+}
+.partner-social-url {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(122, 135, 158);
+}
+.partner-social-url:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(24 161 248) 0px 1px 5px;
+    cursor: pointer;
+}
+@media (min-width: 1441px) {
+    .partner-description {
+        font-size: 18px;
+    }
+    .visit-site-link {
+        font-size: 12px;
+    }
+    .partner-social-url {
+        font-size: 12px;
+    }
+}
+@media (max-width: 1024px) {
+    .partners-email-us-head {
+        font-size: 190%;
+    }
+}
+@media (min-width: 901px) {
+    .visit-site-container {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .partner-company-logo {
+        width: auto;
+        height: 45px;
+    }
+    .partner-description {
+        font-size: 14px;
+    }
+    .partner-social-container {
+        margin-left: 23px;
+    }
+}
+@media (max-width: 768px) {
+    .partners-email-us-head {
+        font-size: 130%;
+        line-height: 32px;
+    }
+    .partners-email-us-bg {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .visit-site-container {
+        display: block;
+    }
+}
+@media (max-width: 580px) {
+    .partners-email-us-head {
+        font-size: 100%;
+        line-height: 22px;
+        margin-left: -40px;
+    }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .partner-grid-sub-container {
+        padding: 30px 32px 40px;
+    }
+    .partner-company-logo {
+        width: auto;
+        height: 44px;
+    }
+    .partners-links-container {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .partners-companies-container {
+        grid-template-rows: auto;
+        grid-template-columns: none;
+        grid-template-areas: "a";
+        margin: 10px 16px 60px;
+    }
+    .partner-description {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .partner-social-container {
+        margin-left: 23px;
+    }
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+    .visit-site-link {
+        font-size: 8px;
+    }
+    .partner-social-url {
+        font-size: 8px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .partners-companies-container {
+        grid-template-rows: auto;
+        grid-template-columns: none;
+        grid-template-areas: "a";
+        row-gap: 10px;
+        margin: 10px 16px 60px;
+    }
+    .partner-social-container {
+        margin-left: 15px;
+    }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+    .partner-description {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 320px) {
+    .partner-description {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}

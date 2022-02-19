@@ -1,10 +1,12 @@
 import React from 'react'
+import Header from '../../../components/header/Header'
 import BannerImage from './../../../assets/1f3c4837-a64e-446b-9bac-85d09ce30287.png'
 import './Banner.css'
 
 const Banner = () => {
   return (
     <div className='banner-container'>
+      <Header/>
       <img src={BannerImage} alt="banner" className='banner-img'/>
       <div className='featured-news-container'>
         <div className='featured-news-head'>

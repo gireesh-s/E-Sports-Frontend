@@ -1,0 +1,18 @@
+.careers-container {
+    background-image: linear-gradient(rgb(22, 31, 48), rgb(24, 31, 44) 34%, rgb(23, 28, 38));
+    position: relative;
+}
+.careers-sub-container {
+    position: relative;
+    background: rgb(1, 4, 10);
+}
+.banner-container {
+    display: flex;
+    height: 41vw;
+    position: relative;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner-container {
+        margin: 20px 0px 0px;
+    }
+}

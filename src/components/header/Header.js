@@ -9,11 +9,13 @@ const Header = () => {
   return (
     <div className='main-container'>
         <div className='sub-container'>
+            <a href='/'>
             <img
             src='https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/header-logo.png'
             alt='logo'
             className='logo-image'
             />
+            </a>
             <div className='nav-container'>
                 <div className='nav-sub-container'>
                     <a href='https://facility.tsm.gg/' target="_blank" className='nav-link'>

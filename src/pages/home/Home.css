@@ -2,3 +2,519 @@
     background-image: linear-gradient(rgb(22, 31, 48), rgb(24, 31, 44) 34%, rgb(23, 28, 38));
     position: relative;
 }
+.home-sub-container-1 {
+    max-width: 1440px;
+    margin: auto;
+}
+.home-sub-container-2 {
+    padding: 45px 60px 60px;
+}
+.group-btn-container {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.group-btn-sub-container {
+    display: flex;
+}
+.selected-btn-container {
+    position: relative;
+}
+.selected-btn {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    transform: skewX(-25deg);
+    margin-right: 10px;
+    width: 175px;
+    height: 48px;
+    background-image: linear-gradient(17deg, rgb(27, 34, 49), rgb(36, 51, 77));
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.73;
+    letter-spacing: 0.3px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(21 116 222) 0px 1px 9px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    opacity: 1;
+    border-image: linear-gradient(rgba(255, 255, 255, 0), rgb(163, 222, 255) 9%, rgb(169, 218, 255) 51%, rgb(163, 222, 255) 91%, rgba(255, 255, 255, 0)) 100% / 1 / 0 stretch;
+}
+.selected-btn:hover {
+    cursor: pointer;
+    opacity: 1;
+    font-family: Lato;
+    border-image: linear-gradient(rgba(255, 255, 255, 0), rgb(163, 222, 255) 9%, rgb(169, 218, 255) 51%, rgb(163, 222, 255) 91%, rgba(255, 255, 255, 0)) 100% / 1 / 0 stretch;
+}
+.highlight {
+    position: absolute;
+    left: -25px;
+    right: 0px;
+    width: 0px;
+    transition: width 0.5s ease 0s;
+    margin-left: auto;
+    margin-right: auto;
+}
+.selected-btn-container .highlight {
+    width: 65%;
+    height: 1px;
+    opacity: 0.9;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(163, 222, 255) 20%, rgb(169, 218, 255) 41%, rgb(163, 222, 255) 80%, rgba(255, 255, 255, 0));
+}
+.selected-btn-container:hover .highlight {
+    width: 65%;
+    height: 1px;
+    opacity: 0.9;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(163, 222, 255) 20%, rgb(169, 218, 255) 41%, rgb(163, 222, 255) 80%, rgba(255, 255, 255, 0));
+}
+.btn-container {
+    position: relative;
+}
+.btn {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    transform: skewX(-25deg);
+    margin-right: 10px;
+    width: 175px;
+    height: 48px;
+    opacity: 0.66;
+    background-image: linear-gradient(17deg, rgb(27, 34, 49), rgb(36, 51, 77));
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.73;
+    letter-spacing: 0.3px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(21 116 222) 0px 1px 9px;
+    border: 0px;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: 1;
+    font-family: Lato;
+    border-image: linear-gradient(rgba(255, 255, 255, 0), rgb(163, 222, 255) 9%, rgb(169, 218, 255) 51%, rgb(163, 222, 255) 91%, rgba(255, 255, 255, 0)) 100% / 1 / 0 stretch;
+}
+.label {
+    transform: skewX(25deg);
+    font-size: 22px;
+}
+
+.btn-container:hover .highlight {
+    width: 65%;
+    height: 1px;
+    opacity: 0.9;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(163, 222, 255) 20%, rgb(169, 218, 255) 41%, rgb(163, 222, 255) 80%, rgba(255, 255, 255, 0));
+}
+.game-icons-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-games {
+    font-family: Lato;
+    font-size: 15px;
+    margin: 6px 10px 10px 0px;
+    vertical-align: middle;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.game-icon {
+    height: 15px;
+    width: 15px;
+    margin: 5px 10px 10px 0px;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+.contents-container {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.contents-sub-container {
+    width: 100%;
+    text-align: center;
+}
+.home-sub-container-3 {
+    padding: 60px;
+}
+.our-teams {
+    margin-bottom: 32px;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.7px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(3 17 38 / 30%) 0px 2px 4px;
+}
+.team-posters-container {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.team-link {
+    width: 32%;
+    margin-bottom: 40px;
+}
+.poster-container {
+    display: block;
+    position: relative;
+    background-color: rgba(23, 28, 38, 0.25);
+    transition: all 0.1s ease-out 0s;
+}
+.poster-container:hover {
+    cursor: pointer;
+    transform: scale(1.035);
+    border: 3.2px solid rgb(230, 239, 254);
+}
+.poster-sub-container {
+    padding-bottom: 5px;
+}
+.poster {
+    width: 100%;
+    height: auto;
+}
+.load-more-link {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.load-more-container {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transition: all 0.5s ease 0s;
+}
+.load-more-container:hover {
+    transform: scale(1.045);
+}
+.load-more-sub-container:hover {
+    cursor: pointer;
+}
+.load-more {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: rgb(255, 255, 255);
+}
+.load-more:hover {
+    color: rgb(91, 170, 234);
+    text-shadow: rgb(21 116 222) 0px 1px 9px;
+}
+.load-more-sub-container:hover .underline {
+    width: 110px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(163, 222, 255), rgb(169, 218, 255) 51%, rgb(163, 222, 255), rgba(255, 255, 255, 0));
+    box-shadow: rgb(24 161 248) 0px 1px 7px 0px;
+}
+.underline {
+    margin-top: 10px;
+    width: 92px;
+    height: 1px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(163, 222, 255) 0%, rgb(169, 218, 255) 51%, rgb(163, 222, 255) 100%, rgba(255, 255, 255, 0));
+    transition: all 2s ease 0s;
+}
+.blogs-container {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0px 60px 90px;
+}
+.insta-container {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    width: 52%;
+    height: 100%;
+    overflow: hidden;
+}
+.insta-head-container {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+.instagram {
+    font-size: 32px;
+    line-height: 1.31;
+    letter-spacing: 0.7px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(3 17 38 / 30%) 0px 2px 4px;
+}
+.by {
+    margin-left: 19px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.insta-link {
+    margin-left: 8px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: rgb(59, 185, 227);
+    text-decoration: none;
+}
+.insta-content {
+    height: 675px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+.twitter-container {
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    width: 45%;
+}
+.twitter-head-container {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+.twitter {
+    font-size: 32px;
+    line-height: 1.31;
+    letter-spacing: 0.7px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(3 17 38 / 30%) 0px 2px 4px;
+}
+.twitter-link {
+    margin-left: 8px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: rgb(59, 185, 227);
+    text-decoration: none;
+}
+.twitter-content {
+    max-width: 700px;
+    height: 675px;
+    background-color: rgb(18, 23, 32);
+    overflow-y: scroll;
+}
+@media (max-width: 1439px) {
+    .label {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1240px){
+    .group-btn-container {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .group-btn-sub-container {
+        align-self: flex-start;
+        width: 100%;
+    }
+    .selected-btn-container {
+        width: 25%;
+    }
+    .selected-btn {
+        width: calc(100% - 20px);
+    }
+    .btn-container {
+        width: 25%;
+    }
+    .btn {
+        width: calc(100% - 20px);
+    }
+    .game-icons-container {
+        margin-top: 20px;
+        align-self: flex-end;
+    }
+}
+@media (max-width: 1024px) {
+    .selected-btn {
+        width: calc(100% - 10px);
+    }
+    .btn {
+        width: calc(100% - 10px);
+    }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+    .team-link {
+        margin-bottom: 23px;
+    }
+    .insta-container {
+        width: 468px;
+    }
+    .instagram {
+        font-size: 28px;
+    }
+    .insta-content {
+        width: 468px;
+        height: 468px;
+    }
+    .twitter {
+        font-size: 28px;
+    }
+    .twitter-content {
+        height: 448px;
+        padding: 10px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    .selected-btn {
+        height: 42px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .btn {
+        height: 42px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    .our-teams {
+        font-size: 28px;
+    }
+    .insta-content {
+        height: 350px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .home-sub-container-2 {
+        padding: 60px 30px;
+    }
+    .home-sub-container-3 {
+        padding: 60px 30px;
+    }
+    .team-link {
+        width: 48%;
+        margin-bottom: 23px;
+    }
+    .blogs-container {
+        margin: 0px 32px 90px;
+        flex-direction: column;
+    }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+    .insta-content {
+        height: auto;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .home-sub-container-2 {
+        padding: 30px 16px 40px;
+    }
+    .home-sub-container-3 {
+        padding: 0px 16px 40px;
+    }
+    .group-btn-container {
+        flex-direction: column;
+    }
+    .game-icons-container {
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .contents-container {
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    .contents-sub-container {
+        margin-top: 20px;
+    }
+    .our-teams {
+        font-size: 20px;
+    }
+    .team-posters-container {
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    .team-link {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .load-more-link {
+        margin-top: 30px;
+    }
+    .blogs-container {
+        margin: 0px 16px 45px;
+        flex-direction: column;
+    }
+    .insta-head-container {
+        margin-bottom: 20px;
+    }
+    .instagram {
+        font-size: 20px;
+    }
+    .by {
+        font-size: 10px;
+    }
+    .insta-link {
+        font-size: 10px;
+    }
+    .twitter {
+        font-size: 20px;
+    }
+    .twitter-link {
+        font-size: 10px;
+    }
+    .twitter-content {
+        padding: 10px 10px 0px;
+        height: 472px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px){
+    .group-btn-sub-container {
+        flex-wrap: wrap;
+    }
+    .selected-btn-container {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .selected-btn {
+        height: 38px;
+        font-size: 16px;
+    }
+    .btn-container {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .btn {
+        height: 38px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .insta-container {
+        width: 100%;
+    }
+    .twitter-container {
+        width: 100%;
+        margin-top: 60px;
+    }
+}
+@media (max-width: 320px) {
+    .insta-content {
+        height: 285px;
+    }
+}

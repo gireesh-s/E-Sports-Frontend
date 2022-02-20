@@ -1,3 +1,5 @@
+import { SITE_URL } from "./Config";
+
 export const ourTeams = {
     gamePosters: [
         { image: "https://tsm.gg/static/1.jpg", alt:"lol", url:"/teams/lol" },
@@ -8,11 +10,23 @@ export const ourTeams = {
     ]
 }
 
-export const teams = {
-    gameIcons: [
-        { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/lit-lol.svg", alt:"lol", url:"/teams/lol" },
+export const teams = [
+        { 
+            icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/lit-lol.svg", 
+            alt:"lol", 
+            url:"/teams/lol" 
+        },
+        { 
+            icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/pubg.svg", 
+            alt:"pubg", 
+            url:"/teams/pubg" 
+        },
+        { 
+            icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/fn.svg", 
+            alt:"fortnite", 
+            url:"/teams/fn" 
+        },
         { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/pubg.svg", alt:"pubg", url:"/teams/pubg" },
-        { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/fn.svg", alt:"fortnite", url:"/teams/fn" },
         { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/pubg.svg", alt:"pubg", url:"/teams/pubg" },
         { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/pubg.svg", alt:"pubg", url:"/teams/pubg" },
         { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/pubg.svg", alt:"pubg", url:"/teams/pubg" },
@@ -21,9 +35,7 @@ export const teams = {
         { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/pubg.svg", alt:"pubg", url:"/teams/pubg" },
         { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/pubg.svg", alt:"pubg", url:"/teams/pubg" },
         { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/pubg.svg", alt:"pubg", url:"/teams/pubg" },
-        { icon: "https://s3.amazonaws.com/solomid-resources/tsm-gg/newtsmgg/gameicons/pubg.svg", alt:"pubg", url:"/teams/pubg" },
-    ]
-}
+]
 
 export const partners = [
     {
@@ -84,4 +96,55 @@ export const partners = [
             { icon:"fa-brands fa-youtube", url:"https://www.youtube.com/channel/UCHxcqJWQQcoVmVh5eHVqVxg" },
         ],
     }
+]
+
+export const brands = [
+    {
+        logo:"https://tsm.gg/static/tsmLogos/Black-Logo-Mark.png",
+        alt:"BlackVersion",
+        title:"Black Version",
+        url:`${SITE_URL}/static/tsmLogos/zip/Black-Version.zip`
+    },
+    {
+        logo:"https://tsm.gg/static/tsmLogos/Black-Gradient-Logo-Mark.png",
+        alt:"BlackGradientVersion",
+        title:"Black Gradient Version",
+        url:`${SITE_URL}"/static/tsmLogos/zip/Black-Gradient-Version.zip`
+    },
+    {
+        logo:"https://tsm.gg/static/tsmLogos/White-Logo-Mark.png",
+        alt:"WhiteVersion",
+        title:"White Version",
+        url:`${SITE_URL}/static/tsmLogos/zip/White-Version.zip`
+    },
+    {
+        logo:"https://tsm.gg/static/tsmLogos/White-Gradient-Logo-Mark.png",
+        alt:"WhiteGradientVersion",
+        title:"White Gradient Version",
+        url:`${SITE_URL}/static/tsmLogos/zip/White-Gradient-Version.zip`
+    },
+    {
+        logo:"https://tsm.gg/static/tsmLogos/FTX-Black-Blue-Logo-Mark.png",
+        alt:"FTXBlack&BlueVersion",
+        title:"FTX Black & Blue Version",
+        url:`${SITE_URL}/static/tsmLogos/zip/TSM-FTX-Black-Blue-Version.zip`
+    },
+    {
+        logo:"https://tsm.gg/static/tsmLogos/FTX-White-Blue-Logo-Mark.png",
+        alt:"FTXWhite&BlueVersion",
+        title:"FTX White & Blue Version",
+        url:`${SITE_URL}/static/tsmLogos/zip/TSM-FTX-White-Blue-Version.zip`
+    },
+    {
+        logo:"https://tsm.gg/static/tsmLogos/FTX-Black-Logo-Mark.png",
+        alt:"FTXBlackVersion",
+        title:"FTX Black Version",
+        url:`${SITE_URL}/static/tsmLogos/zip/TSM-FTX-Black-Version.zip`
+    },
+    {
+        logo:"https://tsm.gg/static/tsmLogos/FTX-White-Logo-Mark.png",
+        alt:"FTXWhiteVersion",
+        title:"FTX White Version",
+        url:`${SITE_URL}/static/tsmLogos/zip/TSM-FTX-White-Version.zip`
+    },
 ]

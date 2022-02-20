@@ -74,7 +74,7 @@ const Partners = () => {
                         If you are interested in partnering with TSM
                         <br/>
                         please email us at <t/>
-                        <a href='email:partnerships@tsm.gg'>partnerships@tsm.gg</a>
+                        <a href='mailto:partnerships@tsm.gg'>partnerships@tsm.gg</a>
                         .
                     </h3>
                     <img

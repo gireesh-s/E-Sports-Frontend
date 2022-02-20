@@ -1,0 +1,168 @@
+.contact-main-container {
+    background-image: linear-gradient(rgb(22, 31, 48), rgb(24, 31, 44) 34%, rgb(23, 28, 38));
+    position: relative;
+}
+.contact-sub-container {
+    width: 100%;
+}
+.contact-sub-container-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 5% 10%;
+}
+.contact-us-title {
+    font-family: Lato-Regular;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.69px;
+    line-height: 42px;
+    text-shadow: rgb(3 17 38 / 30%) 0px 2px 4px;
+}
+.contact-us-sub-title {
+    font-family: Lato-Light;
+    font-size: 16px;
+    color: rgb(122, 135, 158);
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column
+}
+.input-label {
+    color: rgb(204, 0, 0);
+}
+.name-text-field {
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    opacity: 0.9;
+    background: rgb(30, 40, 59);
+    font-family: Lato-Light;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    line-height: 24px;
+    flex: 1 1 0%;
+    padding: 10px;
+    border: none;
+    margin: 10px 5px 10px 0px;
+}
+.email-text-field {
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    opacity: 0.9;
+    background: rgb(30, 40, 59);
+    font-family: Lato-Light;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    line-height: 24px;
+    flex: 1 1 0%;
+    padding: 10px;
+    border: none;
+    margin: 10px 0px;
+}
+.message-text-area {
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    opacity: 0.9;
+    background: rgb(30, 40, 59);
+    font-family: Lato-Light;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    line-height: 24px;
+    flex: 1 1 0%;
+    padding: 10px;
+    border: none;
+    margin: 10px 0px;
+    resize: none;
+}
+.name-error-text-field {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 0, 0);
+    opacity: 0.9;
+    background: rgb(30, 40, 59);
+    font-family: Lato-Light;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    line-height: 24px;
+    flex: 1 1 0%;
+    padding: 10px;
+    border: none;
+    margin: 10px 5px 10px 0px;
+}
+.email-error-text-field {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 0, 0);
+    opacity: 0.9;
+    background: rgb(30, 40, 59);
+    font-family: Lato-Light;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    line-height: 24px;
+    flex: 1 1 0%;
+    padding: 10px;
+    border: none;
+    margin: 10px 0px;
+}
+.message-error-text-field {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 0, 0);
+    opacity: 0.9;
+    background: rgb(30, 40, 59);
+    font-family: Lato-Light;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    line-height: 24px;
+    flex: 1 1 0%;
+    padding: 10px;
+    border: none;
+    margin: 10px 0px;
+    resize: none;
+}
+.submit-btn--sub--container {
+    width: 275px;
+    margin: 10px 0px;
+}
+.submit-btn--sub--container:hover {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(163, 222, 255) 9%, rgb(169, 218, 255) 52%, rgb(163, 222, 255) 89%, rgba(255, 255, 255, 0) 98%);
+    box-shadow: rgb(24 161 248) 0px 1px 7px 0px;
+}
+.submit-btn {
+    width: 100%;
+    background: rgb(36, 44, 64);
+    border: 1px solid rgb(91, 170, 234);
+    border-radius: 1px;
+    cursor: pointer;
+    font-family: Lato-Bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.4px;
+    text-align: center;
+    min-height: 44px;
+}
+@media (min-width: 901px) {
+    .submit-btn-container {
+        display: flex;
+    }
+}
+@media (max-width: 700px) {
+    .submit-btn-container {
+        display: block;
+    }
+}
+@media (max-width: 480px) {
+    .submit-btn--sub--container {
+        width: 100%;
+    }
+}

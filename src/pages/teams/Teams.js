@@ -1,11 +1,12 @@
 import React from 'react'
-import AliceCarousel from 'react-alice-carousel'
+import AliceCarousel from 'react-alice-carousel';
+import Header from '../../components/header/Header'
 import { teams } from '../../datas/Datas'
 import './Teams.css'
 
 const Teams = () => {
 
-    const items = teams.gameIcons.map((teams)=>(
+    const items = teams.map((teams)=>(
         <a href={teams.url}>
             <div className='icon-container'>
                 <img src={teams.icon} alt={teams.alt} className="icon-img"/>
@@ -16,11 +17,7 @@ const Teams = () => {
   return (
     <div className='teams-main-container'>
         <div className='group-game-icons-container'>
-            <AliceCarousel
-             disableButtonsControls
-             disableDotsControls 
-             items={items}
-            />
+            <Header/>
         </div>
     </div>
   )
